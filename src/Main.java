@@ -34,7 +34,7 @@ public class Main {
         // Get the ExitSprite
         ExitSprite exit = level.getExit();
 
-        // Add elements to RenderEngine and PhysicEngine
+        // Add elements t o RenderEngine and PhysicEngine
         renderEngine.addToRenderList(level.getSpriteList());
         renderEngine.addToRenderList(hero);
         if (exit != null) renderEngine.addToRenderList(exit); // Add exit sprite for rendering
